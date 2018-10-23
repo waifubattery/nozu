@@ -1,0 +1,94 @@
+/*Background & Overall*/
+body {
+        background-color: #fffbf1
+     }
+
+body {
+         font-family: 'Niramit';font-size: 14px;
+     }
+
+body {
+  color: #333333;
+  line-height: 1.6;
+
+}
+
+/* Navigation Bar */
+.ulone {
+    list-style-type: none;
+    border-style: solid;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fffbf1;
+    }
+
+.lione {
+    float: left;
+   }
+
+.lione a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     }
+
+.active {
+    background-color:#d8e3ff;
+}
+
+.lione a:hover {
+    background-color: #d3d3d3;
+           }
+
+/* Image in About */
+
+img {
+        float: left;
+    }
+
+
+.center {
+    display: block;
+    border: 2px solid black;
+    margin: 100px 50px 75px 350px; 
+    width: 25%;
+}
+
+/* Text in About */
+
+.center-text-one {
+    display: block;
+    margin: 150px 10px 75px 100px;
+    width: 65%;
+}
+
+.center-text-two {
+    display: block;
+    margin: 120px 10px 75px 100px;
+    width: 65%;
+}
+
+
+/* Image in Service */
+
+.cbanner {
+    border: 2px solid black;
+    margin: 10px 50px 75px 820px;
+    width: 15%;
+}
+
+/* List */
+
+.ulist{
+   margin-top: 250px;
+   text-align: center;
+     list-style-type: circle;
+}
+
+.olist{
+   text-align: center;
+    list-style-type: lower-roman;
+}
